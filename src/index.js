@@ -58,19 +58,19 @@ router.get('/api/news', async (ctx, next) => {
     ctx.response.body = JSON.stringify([
         {
             header: faker.lorem.sentence(),
-            imageURL: '/img/1.png',
+            imageURL: 'img/1.png',
             imageAlt: faker.lorem.word(),
             text: faker.lorem.paragraph(),
         },
         {
             header: faker.lorem.sentence(),
-            imageURL: '/img/2.png',
+            imageURL: 'img/2.png',
             imageAlt: faker.lorem.word(),
             text: faker.lorem.paragraph(),
         },
         {
             header: faker.lorem.sentence(),
-            imageURL: '/img/3.png',
+            imageURL: 'img/3.png',
             imageAlt: faker.lorem.word(),
             text: faker.lorem.paragraph(),
         },
